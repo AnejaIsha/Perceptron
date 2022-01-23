@@ -2,7 +2,7 @@ from utils.model import Perceptron
 from utils.all_utils import prepare_data,save_model,save_plot
 import pandas as pd
 
-def main(data,model,eta,epochs):
+def main(data,modelName,plotName,eta,epochs):
 
     df = pd.DataFrame(data)
     print(df)
